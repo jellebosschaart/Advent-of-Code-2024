@@ -65,5 +65,5 @@ for id in file_ids:
 
 
 results = [i*pos for i, pos in enumerate(result) if pos is not None]
-print(result)
 print(np.sum(results))
+print(len(source_list))
