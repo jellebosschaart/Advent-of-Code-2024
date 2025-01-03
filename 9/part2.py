@@ -65,4 +65,6 @@ for id in file_ids:
 
 
 results = [i*pos for i, pos in enumerate(result) if pos is not None]
+
+print(np.sum(results, dtype=np.int64))
 print(sum(results))
